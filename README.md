@@ -80,26 +80,26 @@ Speakers:
 
 5. Once the file is loaded, click on Apply to add this file to your project.
 
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/apply-add-file.png"/>
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/apply-file.png"/>
+ > Click Apply on the pop-up:
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/apply-changes.png"/>
 
   > You should see transactions.csv under the data assets list of your project. Your data is  now loaded in your object storage in the container associated to your project. If your project name is "DSX Lab", the default container name is DSXLab (unless you change to a different name on Step 2, part 3).
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/project-view.png"/>
 
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/tweets-on-proj.png"/>
 
  #Step 4. Importing Notebooks for Machine Learning Lab
 
  1.  From the your project page, on the "Overview" tab click "add notebook"
-
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/add-notebook.png"/>
  2.  In the next screen named “Create Notebook”, switch to “From File” tab, name the notebook “ML Lab Installation”, and choose the notebook file on your disk from the archive: notebooks/ml-lab-installation.ipynb; alternatively you can switch to “From  URL” tab and use the following “Notebook URL”:
- > https://github.com/IBMDataScience/wow-lab-to-production/blob/master/datascientist/machinelearning/labs/ml-lab-installation.ipynb
+ > https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/ml-lab-installation.ipynb
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/notebook-from-url.png"/>
+ 4.  Click Create Notebook at the bottom of the page to add the notebook
+ 5. Click File -> Save or the Floppy disk icon to save the notebook 
+ 5. Return back to the project overview page by clicking on "DSX Lab" or the name you gave your project
 
- 3. Click on Create Notebook
-
- 4.  Save the current state by clicking on File &gt; Save Version from the menu
-
- 5.  Return back to the project overview page (or DSX home page)
-
- 6.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/labs/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-5 as above
+ 6.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-5 as above
 
  #Step 5. Switch to the Provisioned Source Data Repository in DSX Lab Notebook
 
