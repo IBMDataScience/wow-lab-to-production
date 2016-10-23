@@ -92,32 +92,32 @@ Speakers:
 
  #Step 4. Importing Notebooks for Machine Learning Lab
 
- 1.  From the your project page, on the "Overview" tab click "add notebook"
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/add-notebook.png"/>
- 2.  In the next screen named “Create Notebook”, switch to “From File” tab, name the notebook “ML Lab Installation”, and choose the notebook file on your disk from the archive: notebooks/ml-lab-installation.ipynb; alternatively you can switch to “From  URL” tab and use the following “Notebook URL”:
+1. From the your project page, on the "Overview" tab click "add notebook"
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/add-notebook.png" width="512" height="499"/>
+2. In the next screen named “Create Notebook”, switch to “From File” tab, name the notebook “ML Lab Installation”, and choose the notebook file on your disk from the archive: notebooks/ml-lab-installation.ipynb; alternatively you can switch to “From  URL” tab and use the following “Notebook URL”:
  > https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/ml-lab-installation.ipynb
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/notebook-from-url.png"/>
- 3.  Click Create Notebook at the bottom of the page to add the notebook
- 4. Run all the cells in the notebook clicking on the Run All option under Cells
+3. Click Create Notebook at the bottom of the page to add the notebook
+4. Run all the cells in the notebook clicking on the Run All option under Cells
   >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/run-all.png"/>
- 5. Once the libraries have been installed, all the cells will have a number present on the left side of the notebook between square brackets.
+5. Once the libraries have been installed, all the cells will have a number present on the left side of the notebook between square brackets.
    >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/complete-notebook.png"/>
- 6. Click File -> Save or the Floppy disk icon to save the notebook 
- 7. Return back to the project overview page by clicking on "DSX Lab" or the name you gave your project
- 8.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks in the default project by navigating to the side bar menu Projects > Default Project:
+6. Click File -> Save or the Floppy disk icon to save the notebook 
+7. Return back to the project overview page by clicking on "DSX Lab" or the name you gave your project
+8. Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks in the default project by navigating to the side bar menu Projects > Default Project:
  ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-side-toolbar.jpg)
 
  >NOTE: the software packages installation may take a few minutes, but it
  >needs to be done only once per account
- 9.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-5 as above
+9.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-5 as above
 
  #Step 5. Generate a decision tree model with visualizations
 
- 1.  From the loaded notebook “Machine Learning with DSX Lab” click on "Find and add data": ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Selecting-Data-Sources.jpg)
+1.  From the loaded notebook “Machine Learning with DSX Lab” click on "Find and add data": ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Selecting-Data-Sources.jpg)
 
- 2.  The expanded "Find and add data" would show transaction.csv under “Files” section
+2.  The expanded "Find and add data" would show transaction.csv under “Files” section
 
- 3.  Identify the cell with the implementation of getObjectStorageFileWithCredentials and replace the code to use your provisioned Object Storage service:
+3.  Identify the cell with the implementation of getObjectStorageFileWithCredentials and replace the code to use your provisioned Object Storage service:
 
      a.  Place your cursor to the cell with the default getObjectStorageFileWithCredentials implementation
      b.  Create an empty code cell just above the code cell with the default getObjectStorageFileWithCredentials by clicking on the following menu items: “Insert” &gt; “Insert Cell Above” and place your cursor into the new cell
@@ -145,11 +145,11 @@ Speakers:
 
  #Step 6. Running Decision Tree Lab
 
- 1.  From the DSX home page go to “Machine Learning with DSX - Lab” in “My Recent Notebooks” section
+1.  From the DSX home page go to “Machine Learning with DSX - Lab” in “My Recent Notebooks” section
 
- 2.  Open “Machine Learning with DSX - Lab” notebook in the list by clicking on the name of the notebook
+2.  Open “Machine Learning with DSX - Lab” notebook in the list by clicking on the name of the notebook
 
- 3.  Execute every code section in the order in which the sections appear by clicking on the button ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Execute-section.png) or by using the menu Cell&gt; Run Cells. The lab covers the following actions:
+3.  Execute every code section in the order in which the sections appear by clicking on the button ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Execute-section.png) or by using the menu Cell&gt; Run Cells. The lab covers the following actions:
 
      a.  Declaring the libraries used in the lab
 
@@ -167,7 +167,7 @@ Speakers:
 
      h.  Showing the native R visualization of the decision tree for comparison
 
- 4.  \[Optional step\] Clean-up the output of all sections to prepare the lab for the next user: click on Cell&gt;All Output&gt;Clear
+4.  \[Optional step\] Clean-up the output of all sections to prepare the lab for the next user: click on Cell&gt;All Output&gt;Clear
 
- 5.  Stop the kernel (File &gt; Stop Kernel) and go back to the project overview page or DSX home page
+5.  Stop the kernel (File &gt; Stop Kernel) and go back to the project overview page or DSX home page
 
