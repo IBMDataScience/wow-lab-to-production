@@ -55,7 +55,8 @@ Speakers:
 
 2. Click on the create project icon on the top right of the project list.
 
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/create-new-project.png?raw=true" />
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/
+ new-project.png?raw=true" />
 
 3. Type a name for your project. For instance, "DSX Lab". A Spark service and an object storage will be automatically selected as well as a container with a default name. A container is a directory on the object storage. Click on Create.
 
@@ -64,7 +65,9 @@ Speakers:
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/create-project.png?raw=true" width="512" height="499" />
 
 
-#Step 3. Get the data into DSX
+#Step 3.
+##Get the data into DSX
+
 
 1. [Click here to download this repository](https://github.com/IBMDataScience/wow-lab-to-production/archive/master.zip) to your computer to access the data stored in the data directory.
 
@@ -90,13 +93,16 @@ Speakers:
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/project-view.png"/>
 
 
- #Step 4. Importing Notebooks for Machine Learning Lab
+#Step 4.
+##Importing Notebooks for Machine Learning Lab
+
 
 1. From the your project page, on the "Overview" tab click "add notebook"
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/add-notebook.png" width="512" height="499"/>
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/add-notebook.png" />
 2. In the next screen named “Create Notebook”, switch to “From File” tab, name the notebook “ML Lab Installation”, and choose the notebook file on your disk from the archive: notebooks/ml-lab-installation.ipynb; alternatively you can switch to “From  URL” tab and use the following “Notebook URL”:
  > https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/ml-lab-installation.ipynb
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/notebook-from-url.png"/>
+ 
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/notebook-from-url.png" width="512" height="499"/>
 3. Click Create Notebook at the bottom of the page to add the notebook
 4. Run all the cells in the notebook clicking on the Run All option under Cells
   >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/run-all.png"/>
@@ -111,7 +117,9 @@ Speakers:
  >needs to be done only once per account
 9.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-5 as above
 
- #Step 5. Generate a decision tree model with visualizations
+
+#Step 5. Generate a decision tree model with visualizations
+
 
 1.  From the loaded notebook “Machine Learning with DSX Lab” click on "Find and add data": ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Selecting-Data-Sources.jpg)
 
@@ -143,7 +151,7 @@ Speakers:
      g.  Check point: after the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
 
 
- #Step 6. Running Decision Tree Lab
+#Step 6. Running Decision Tree Lab
 
 1.  From the DSX home page go to “Machine Learning with DSX - Lab” in “My Recent Notebooks” section
 
