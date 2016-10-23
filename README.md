@@ -19,7 +19,7 @@ Speakers:
 - [Import Notebook from GitHub](#importing-notebooks)
 - [Load Object Storage Data in a Notebook](#object-data)
 - [Create decision tree in R](#decision-tree-r)
-- ### Additional Activities 
+- Additional Activities 
  - [Create & Visualize Decision Tree with SPSS in Scala](#spss-tree) 
  
 # Instructions:
