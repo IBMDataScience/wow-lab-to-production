@@ -79,7 +79,9 @@ Speakers:
 
 1. [Click here to download this repository](https://github.com/IBMDataScience/wow-lab-to-production/archive/master.zip) to your computer to access the data stored in the data directory.
 
-2. Unzip this zip file on your computer so you have a directory with all the assets in the repository.  We will be using the data from the data directory.
+2. Unzip this zip file on your computer so you have a directory with all the assets in the repository.  We will be using the data from the data directory.  The screenshot below shows dragging the contents to the desktop for easy access:
+
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/open-data-set.png"/>
 
 2. Go to your recently created project on DSX and click on the add data assets + icon
 
