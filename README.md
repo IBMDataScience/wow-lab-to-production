@@ -76,13 +76,15 @@ Speakers:
 
 3. Click on the Add file and select the transactions.csv file from your computer and click on open
 
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/add-file.png"/>
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/add-file.png" width="450" height="275"/>
 
 5. Once the file is loaded, click on Apply to add this file to your project.
 
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/apply-file.png"/>
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/apply-file.png" width="450" height="275"/>
+ 
  > Click Apply on the pop-up:
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/apply-changes.png"/>
+ 
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/apply-changes.png" width="500" height="225"/>
 
   > You should see transactions.csv under the data assets list of your project. Your data is  now loaded in your object storage in the container associated to your project. If your project name is "DSX Lab", the default container name is DSXLab (unless you change to a different name on Step 2, part 3).
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/project-view.png"/>
