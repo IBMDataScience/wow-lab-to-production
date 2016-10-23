@@ -65,8 +65,7 @@ Speakers:
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/create-project.png?raw=true" width="512" height="499" />
 
 
-#Step 3.
-##Get the data into DSX
+#Step 3. Get the data into DSX
 
 
 1. [Click here to download this repository](https://github.com/IBMDataScience/wow-lab-to-production/archive/master.zip) to your computer to access the data stored in the data directory.
@@ -93,8 +92,7 @@ Speakers:
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/project-view.png"/>
 
 
-#Step 4.
-##Importing Notebooks for Machine Learning Lab
+#Step 4. Importing Notebooks for Machine Learning Lab
 
 
 1. From the your project page, on the "Overview" tab click "add notebook"
@@ -127,7 +125,6 @@ Speakers:
 3.  Follow the instructions in the cell of the notebook shown below:
 
 <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/adding-data-in-notebook.png"/> 
-
 4.  After inserting the code, at then end you will see something that looks like this:
      
      ```R
@@ -138,9 +135,9 @@ Speakers:
      ```R
      df <-  read.csv(file = getObjectStorageFileWithCredentials_92c679820c6ebdd53("DSXLab", "transactions.csv"))
      head(df)    
-     ```  
-   
-5.  Check point: after the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
+     ``` 
+     
+5. Check point: after the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
 
 
 #Step 6. Running Decision Tree Lab
