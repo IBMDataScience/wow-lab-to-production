@@ -14,7 +14,14 @@ Speakers:
 
 # Contents 
 - [Account Set-up](#set-up)
-
+- [Create a project](#create-project)
+- [Load data](#load-data)
+- [Import Notebook from GitHub](#importing-notebooks)
+- [Load Object Storage Data in a Notebook](#object-data)
+- [Create decision tree in R](#decision-tree-r)
+- ### Additional Activities 
+ - [Create & Visualize Decision Tree with SPSS in Scala](#spss-tree) 
+ 
 # Instructions:
 
 #Step 1. Get on IBM Data Science Experience (DSX).
@@ -50,7 +57,7 @@ Speakers:
 
 >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/landing.png?raw=true"/>
 
-#Step 2. Create a project
+# <a name="create-project"></a>Step 2. Create a project
 
 1. Click on the left hand side "hamburger" icon and then click on My Projects to see a list of your projects. You should only see a default project.
 
@@ -68,7 +75,7 @@ Speakers:
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/create-project.png?raw=true" width="512" height="499" />
 
 
-#Step 3. Get the data into DSX
+# <a name="load-data"></a>Step 3. Get the data into DSX
 
 
 1. [Click here to download this repository](https://github.com/IBMDataScience/wow-lab-to-production/archive/master.zip) to your computer to access the data stored in the data directory.
@@ -95,7 +102,7 @@ Speakers:
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/project-view.png"/>
 
 
-#Step 4. Importing Notebooks for Machine Learning Lab
+# <a name="importing-notebooks"></a>Step 4. Importing Notebooks for Machine Learning Lab
 
 
 1. From the your project page, on the "Overview" tab click "add notebook"
@@ -117,7 +124,7 @@ Speakers:
 8.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-3 as above
 
 
-#Step 5. Adding data from Object Storage in the Notebook
+# <a name="object-data"></a>Step 5. Adding data from Object Storage in the Notebook
 
 1.  From the loaded notebook “Machine Learning with DSX Lab” click on "Find and add data": 
 <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Selecting-Data-Sources.jpg"  width="230" height="189"/>   
@@ -141,7 +148,7 @@ Speakers:
 ### Check point: 
  After the modifications, the section code should define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  the variable in the last 2 lines of code shown above.
 
-#Step 6. Generate a decision tree model with visualizations in R
+# <a name="decision-tree-r"></a>Step 6. Generate a decision tree model with visualizations in R
 1.  Begin execution of every code section in the order in which the sections appear by clicking on the button ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Execute-section.png) or by using the menu Cell&gt; Run Cells. The lab covers the following actions:
 
      a.  Declaring the libraries used in the lab
@@ -161,4 +168,10 @@ Speakers:
      h.  Showing the native R visualization of the decision tree for comparison
 
 2.  Stop the kernel (File &gt; Stop Kernel) and go back to the project overview page or DSX home page
+
+---
+# Additional Activity
+## <a name="spss-tree"></a>Create and Visualize SPSS CHAID Decision Tree in Scala
+
+
 
