@@ -109,14 +109,12 @@ Speakers:
    <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/complete-notebook.png"  width="435" height="207"/>
 6. Click File -> Save or the Floppy disk icon to save the notebook 
 7. Return back to the project overview page by clicking on "DSX Lab" or the name you gave your project
-8. Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks in the default project by navigating to the side bar menu Projects > Default Project:
  >NOTE: the software packages installation may take a few minutes, but it
  >needs to be done only once per account
-9.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-3 as above
+8.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-3 as above
 
 
-#Step 5. Generate a decision tree model with visualizations
-
+#Step 5. Adding data from Object Storage in the Notebook
 
 1.  From the loaded notebook “Machine Learning with DSX Lab” click on "Find and add data": 
 <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Selecting-Data-Sources.jpg"  width="230" height="189"/>   
@@ -138,15 +136,10 @@ Speakers:
      head(df)    
      ```     
 ### Check point: 
- After the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
+ After the modifications, the section code should define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  the variable in the last 2 lines of code shown above.
 
-#Step 6. Running Decision Tree Lab
-
-1.  From the DSX home page go to “Machine Learning with DSX - Lab” in “My Recent Notebooks” section
-
-2.  Open “Machine Learning with DSX - Lab” notebook in the list by clicking on the name of the notebook
-
-3.  Execute every code section in the order in which the sections appear by clicking on the button ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Execute-section.png) or by using the menu Cell&gt; Run Cells. The lab covers the following actions:
+#Step 6. Generate a decision tree model with visualizations in R
+1.  Begin execution of every code section in the order in which the sections appear by clicking on the button ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Execute-section.png) or by using the menu Cell&gt; Run Cells. The lab covers the following actions:
 
      a.  Declaring the libraries used in the lab
 
@@ -164,7 +157,5 @@ Speakers:
 
      h.  Showing the native R visualization of the decision tree for comparison
 
-4.  \[Optional step\] Clean-up the output of all sections to prepare the lab for the next user: click on Cell&gt;All Output&gt;Clear
-
-5.  Stop the kernel (File &gt; Stop Kernel) and go back to the project overview page or DSX home page
+2.  Stop the kernel (File &gt; Stop Kernel) and go back to the project overview page or DSX home page
 
