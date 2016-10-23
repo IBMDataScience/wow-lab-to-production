@@ -65,8 +65,7 @@ Speakers:
 
 2. Click on the create project icon on the top right of the project list.
 
- >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/
- new-project.png?raw=true" />
+ >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/new-project.png?raw=true" />
 
 3. Type a name for your project. For instance, "DSX Lab". A Spark service and an object storage will be automatically selected as well as a container with a default name. A container is a directory on the object storage. Click on Create.
 
@@ -173,5 +172,11 @@ Speakers:
 # Additional Activity
 ## <a name="spss-tree"></a>Create and Visualize SPSS CHAID Decision Tree in Scala
 
+1.  Load the this notebook “SPSS Decision Tree and Visualization” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/SPSS%2BDecision%2BTree%2Band%2BVisualization.ipynb ) by [following the same steps 1-3 as above](#importing-notebooks)
+2. This notebook also uses the transactions.csv data set. 
+3.  Follow the instructions in the cell of the notebook shown below:
 
+<img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/adding-data-scala.png"/> 
 
+--- 
+#### End of Lab
