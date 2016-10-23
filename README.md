@@ -12,10 +12,13 @@ Speakers:
  - Brandon MacKenzie, IBM
  - Greg Filla, IBM
 
+# Contents 
+- [Account Set-up](#set-up)
+
 # Instructions:
 
 #Step 1. Get on IBM Data Science Experience (DSX).
-##Create an account.
+## <a name="set-up"></a>Create an account.
 
 1.  Go to [http://datascience.ibm.com/](http://datascience.ibm.com/)
 
