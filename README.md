@@ -132,13 +132,13 @@ Speakers:
      head(df.data.1)    
      ```
    > Replace df.data.1 with df
+   
      ```R
      df <-  read.csv(file = getObjectStorageFileWithCredentials_92c679820c6ebdd53("DSXLab", "transactions.csv"))
      head(df)    
-     ``` 
-     
-5. Check point: after the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
-
+     ```     
+### Check point: 
+ After the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
 
 #Step 6. Running Decision Tree Lab
 
