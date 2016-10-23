@@ -105,38 +105,30 @@ Speakers:
  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/notebook-from-url.png" width="512" height="499"/>
 3. Click Create Notebook at the bottom of the page to add the notebook
 4. Run all the cells in the notebook clicking on the Run All option under Cells
-  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/run-all.png"/>
+  >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/run-all.png" width="435" height="207"/>
 5. Once the libraries have been installed, all the cells will have a number present on the left side of the notebook between square brackets.
-   >  <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/complete-notebook.png"/>
+   >  
+   <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/complete-notebook.png"  width="435" height="207"/>
 6. Click File -> Save or the Floppy disk icon to save the notebook 
 7. Return back to the project overview page by clicking on "DSX Lab" or the name you gave your project
 8. Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks in the default project by navigating to the side bar menu Projects > Default Project:
- ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-side-toolbar.jpg)
-
  >NOTE: the software packages installation may take a few minutes, but it
  >needs to be done only once per account
-9.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-5 as above
+9.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://raw.githubusercontent.com/IBMDataScience/wow-lab-to-production/master/notebooks/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-3 as above
 
 
 #Step 5. Generate a decision tree model with visualizations
 
 
-1.  From the loaded notebook “Machine Learning with DSX Lab” click on "Find and add data": ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Selecting-Data-Sources.jpg)
-
+1.  From the loaded notebook “Machine Learning with DSX Lab” click on "Find and add data": 
+<img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Selecting-Data-Sources.jpg"  width="230" height="189"/>   
 2.  The expanded "Find and add data" would show transaction.csv under “Files” section
 
-3.  Identify the cell with the implementation of getObjectStorageFileWithCredentials and replace the code to use your provisioned Object Storage service:
+3.  Follow the instructions in the cell of the notebook shown below:
 
-     a.  Place your cursor to the cell with the default getObjectStorageFileWithCredentials implementation
-     b.  Create an empty code cell just above the code cell with the default getObjectStorageFileWithCredentials by clicking on the following menu items: “Insert” &gt; “Insert Cell Above” and place your cursor into the new cell
+<img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/adding-data-in-notebook.png"/> 
 
-     ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-inserting-cell.jpg)
-
-     c.  Clicking on “Insert to code” on Transactions.csv will show the options to insert the code: choose “insert base DataFrame” :
-
-  ![](https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/Inserting-code-into-notebook.jpg)
-
-     f.  At then end of this code you will see something that looks like this:
+4.  After inserting the code, at then end you will see something that looks like this:
      
      ```R
      df.data.1 <-  read.csv(file = getObjectStorageFileWithCredentials_92c679820c6ebdd53("DSXLab", "transactions.csv"))
@@ -148,7 +140,7 @@ Speakers:
      head(df)    
      ```  
    
-     g.  Check point: after the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
+5.  Check point: after the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
 
 
 #Step 6. Running Decision Tree Lab
