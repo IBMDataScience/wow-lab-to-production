@@ -181,4 +181,6 @@ Speakers:
 <img src="https://github.com/IBMDataScience/wow-lab-to-production/blob/master/images/adding-data-scala.png"/> 
 
 --- 
+#### Help us make DSX great! [Go here to take a 5 question survey about using Data Science Experience](https://www.surveymonkey.com/r/XTNCY2F) for this lab.
+--- 
 #### End of Lab
